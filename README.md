@@ -16,6 +16,13 @@ This repository contains the configuration and code for a project utilizing Tomc
 
 The project can be accessed at http://103.101.162.163/. Please note that the link may have a limited duration and could be terminated after a short time.
 
+An account is already included in the database which can be access with the following credentials:
+
+Username/Id: capybara
+Password: test
+
+The default servlet configuration port is on 8082 which after the project execution/deployment, could be directly accessed locally via http://localhost:8082/
+
 # Backend Execution
 
 To run the backend server directly, execute the DemoApplication.java file located in the "BackEnd Data" folder.
