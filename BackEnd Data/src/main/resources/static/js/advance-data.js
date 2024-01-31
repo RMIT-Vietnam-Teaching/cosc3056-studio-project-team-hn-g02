@@ -239,11 +239,16 @@ function change() {
 //filter bar
 const filterBar = document.querySelector(".filter-bar");
 const filterOption = document.getElementById("filter-option").value;
+const regionFilterContainer = document.querySelector(
+  ".region-filter-container"
+);
 
 if (filterOption == "nofilter") {
   filterBar.style.display = "none";
+  regionFilterContainer.style.display = "none";
 } else {
   filterBar.style.display = "flex";
+  regionFilterContainer.style.display = "flex";
 }
 
 const select2 = document.getElementsByClassName("select-selected")[1];
@@ -252,11 +257,16 @@ select2.setAttribute("onclick", "filter()");
 
 function filter() {
   const filterOption = document.getElementById("filter-option").value;
+  const regionFilterContainer = document.querySelector(
+    ".region-filter-container"
+  );
 
   if (filterOption == "nofilter") {
     filterBar.style.display = "none";
+    regionFilterContainer.style.display = "none";
   } else {
     filterBar.style.display = "flex";
+    regionFilterContainer.style.display = "flex";
   }
 }
 
