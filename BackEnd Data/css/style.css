@@ -1,8 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url(menu.css);
-
-
-section {
-    min-height: 100lvh;
-    background-color: var(--bg) !important;
-}
