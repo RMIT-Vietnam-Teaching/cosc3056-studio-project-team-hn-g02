@@ -6,11 +6,11 @@ This repository contains the configuration and code for a project utilizing Tomc
 
 # Project's File Structure
 
-BackEnd Configuration: This folder contains the Tomcat Apache configuration for the backend.
+**BackEnd Configuration:** This folder contains the Tomcat Apache configuration for the backend.
 
-GateWay Configuration: Configuration related to the GeoLoadbalancer Proxy, which uses nginx as the host, is stored in this folder.
+**GateWay Configuration:** Configuration related to the GeoLoadbalancer Proxy, which uses nginx as the host, is stored in this folder.
 
-BackEnd Data: The code for the backend is stored in this folder. It utilizes the Spring Boot framework hosting a Tomcat Apache servlet.
+**BackEnd Data:** The code for the backend is stored in this folder. It utilizes the Spring Boot framework hosting a Tomcat Apache servlet.
 
 # Access Information
 
